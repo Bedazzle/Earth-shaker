@@ -1,0 +1,49 @@
+KEYBOARD:
+;     port key bit
+  defb KEYS_VCXZc,%00010000,"V"
+  defb KEYS_VCXZc,%00001000,"C"
+  defb KEYS_VCXZc,%00000100,"X"
+  defb KEYS_VCXZc,%00000010,"Z"
+  defb KEYS_VCXZc,%00000001,"c"	; caps shift
+
+  defb KEYS_GFDSA,%00010000,"G"
+  defb KEYS_GFDSA,%00001000,"F"
+  defb KEYS_GFDSA,%00000100,"D"
+  defb KEYS_GFDSA,%00000010,"S"
+  defb KEYS_GFDSA,%00000001,"A"
+
+  defb KEYS_TREWQ,%00010000,"T"
+  defb KEYS_TREWQ,%00001000,"R"
+  defb KEYS_TREWQ,%00000100,"E"
+  defb KEYS_TREWQ,%00000010,"W"
+  defb KEYS_TREWQ,%00000001,"Q"
+
+  defb KEYS_54321,%00010000,"5"
+  defb KEYS_54321,%00001000,"4"
+  defb KEYS_54321,%00000100,"3"
+  defb KEYS_54321,%00000010,"2"
+  defb KEYS_54321,%00000001,"1"
+
+  defb KEYS_67890,%00010000,"6"
+  defb KEYS_67890,%00001000,"7"
+  defb KEYS_67890,%00000100,"8"
+  defb KEYS_67890,%00000010,"9"
+  defb KEYS_67890,%00000001,"0"
+
+  defb KEYS_YUIOP,%00010000,"Y"
+  defb KEYS_YUIOP,%00001000,"U"
+  defb KEYS_YUIOP,%00000100,"I"
+  defb KEYS_YUIOP,%00000010,"O"
+  defb KEYS_YUIOP,%00000001,"P"
+
+  defb KEYS_HJKLe,%00010000,"H"
+  defb KEYS_HJKLe,%00001000,"J"
+  defb KEYS_HJKLe,%00000100,"K"
+  defb KEYS_HJKLe,%00000010,"L"
+  defb KEYS_HJKLe,%00000001,"e"	; enter
+
+  defb KEYS_BNMss,%00010000,"B"
+  defb KEYS_BNMss,%00001000,"N"
+  defb KEYS_BNMss,%00000100,"M"
+  defb KEYS_BNMss,%00000010,"s"	; symbol shift
+  defb KEYS_BNMss,%00000001," "
